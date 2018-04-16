@@ -14,7 +14,7 @@
 			/>
 		</ul>
 		<p v-else>
-			Nothing left in the list. Add a new todo in the input above.
+			Your Todo lsit is empty. Add items above!
 		</p>
 	</div>
 </template>
@@ -33,18 +33,7 @@ export default {
     return {
 			newTodoText: '',
       todos: [
-				{
-					id: nextTodoId++,
-					text: 'Learn Vue'
-				},
-				{
-					id: nextTodoId++,
-					text: 'Learn about single-file components'
-				},
-				{
-					id: nextTodoId++,
-					text: 'Fall in love'
-				}
+			
 			]
     }
   },
